@@ -1,0 +1,64 @@
+body {
+  background-color: #ffffff;
+  border-radius: 0;
+  border: 0;
+}
+
+#title {
+	text-align: center;
+	font-family:"Lucida Console", Courier, monospace;
+}
+
+#header-nav {
+	background-color: #63676e;
+	border-radius: 0;
+  	border: 4px solid black;
+  	margin-bottom: 20px;
+}
+
+div>p {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.detail {
+	background-color: #63676e;
+	margin: 0px 50px 50px 50px;
+}
+
+/*#nav-list {
+  margin-top: 10px;
+}*/
+#nav-list a {
+  color: #0d0100;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #3ac75f;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+  #show{
+  	display: none;
+  }
+}
